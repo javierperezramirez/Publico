@@ -28,7 +28,7 @@
         #caja2,
         #caja3,
         #caja4 {
-            background-color: rgb(255, 202, 133);
+            background-color: rgb(255, 173, 65);
             border-style: solid;
             border-color: black;
 
@@ -53,14 +53,14 @@
 
         }
 
-        #principal {
-            box-sizing:border-box;
+        #principal1,#principal2 {
+            background-color: rgb(255, 202, 133);
+            box-sizing: border-box;
             width: 90%;
             border: 10px inset rgb(255, 123, 0);
             padding: 10px;
 
         }
-
     </style>
 
 </head>
@@ -74,20 +74,23 @@
     </div>
     <ul>
         <p style=text-align:center><img src="Imagenes\javier.jpg" alt="Foto Curriculum" width="120" height="150"></p>
-
-        <h2 id=caja1 style="text-decoration-line: underline;">Datos Personales:</h2>
-        <li style="text-decoration:underline">Nombre:</li><a>Javier Pérez Ramírez</a><br></br>
-        <li style="text-decoration:underline">Dirección:</li><a>C/Cabas Galvan nº11 4-E 29010 Málaga</a><br></br>
-        <li style="text-decoration:underline">Fecha Nacimiento:</li><a>21 Agosto 1981 Logroño (LA RIOJA)</a><br></br>
-        <li style="text-decoration:underline">Telefono:</li><a>636341503</a>
+        <div id=principal2>
+            <h2 id=caja1 style="text-decoration-line: underline;">Datos Personales:</h2>
+            <li style="text-decoration:underline">Nombre:</li><a>Javier Pérez Ramírez</a><br></br>
+            <li style="text-decoration:underline">Dirección:</li><a>C/Cabas Galvan nº11 4-E 29010 Málaga</a><br></br>
+            <li style="text-decoration:underline">Fecha Nacimiento:</li><a>21 Agosto 1981 <span
+                    style="background-color:rgb(147, 147, 255)">Logroño (LA RIOJA)</span></a><br></br>
+            <li style="text-decoration:underline">Telefono:</li><a>636341503</a>
+        </div>
         <br></br>
-
-        <h2 id=caja2 style="text-decoration-line: underline;">Formación Academica:</h2>
-        <li>Ciclo Superior DESARROLLO DE APLICACIONES WEB</li><br></br>
-        <li>Ciclo Superior TELECOMUNICACIONES E INFORMATICA</li><br></br>
-        <li>Bachillerato TECNOLOGICO</li>
+        <div class="principal3">
+            <h2 id=caja2 style="text-decoration-line: underline;">Formación Academica:</h2>
+            <li>Ciclo Superior DESARROLLO DE APLICACIONES WEB</li><br></br>
+            <li>Ciclo Superior TELECOMUNICACIONES E INFORMATICA</li><br></br>
+            <li>Bachillerato TECNOLOGICO</li>
+        </div>
         <br></br>
-        <main id="principal">
+        <main id="principal1">
             <h2 id=caja3 style="text-decoration-line: underline;">Experiencia Laboral:</h2>
             <li style="text-decoration:underline">2022 - Actualidad: <mark>PROGRAMADOR</mark></li><br></br>
             <li style="text-decoration:underline">2011 - 2022: TELEFONICA INGENIERIA DE SEGURIDAD.</li><a>Tecnico
@@ -105,10 +108,12 @@
             en Marcha de sistemas de seguridad (CCTV,Intrusion,Redes).</a>
         </main>
         <br></br>
-        <h2 id=caja4 style="text-decoration-line: underline;">Otros Datos:</h2>
-        <li>Carnet de conducir B-1</li><br></br>
-        <li>Vehiculo propio</li><br></br>
-        <li>Idioma <span style="background-color:rgb(128, 128, 255)">ingles B1</span></li><br></br>
+        <div class="principal4">
+            <h2 id=caja4 style="text-decoration-line: underline;">Otros Datos:</h2>
+            <li>Carnet de conducir B-1</li><br></br>
+            <li>Vehiculo propio</li><br></br>
+            <li>Idioma ingles B1</li><br></br>
+        </div>
     </ul>
 
 </body>
