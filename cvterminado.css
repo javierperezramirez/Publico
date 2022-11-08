@@ -4,6 +4,7 @@
 
 body {
     background-color:rgb(255, 193, 152);
+    font-size:2vw;
 }
 
 :root {
@@ -13,7 +14,7 @@ body {
     --normal:10px;
     --peque:6px;
     --big:25px;
-    --letras:3vw;
+    --letras:2.5vw;
  }
 
 #cabecera {
@@ -22,7 +23,7 @@ body {
 }
 
 h1 {
-    color: rgb(189, 0, 0);
+    color: rgb(133, 0, 0);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: 40px;
@@ -30,6 +31,7 @@ h1 {
 }
 
 h2 {
+    font-size:3.5vw;
     color: rgb(189, 0, 0);
     border-style: solid;
     padding: 10px;
@@ -37,6 +39,7 @@ h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 li {
+    font-size:2vw;
     margin-left: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 1px 1px 1px gray;
