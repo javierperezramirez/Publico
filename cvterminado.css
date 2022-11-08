@@ -19,7 +19,7 @@ body {
 
 #cabecera {
     background-color: rgb(255, 202, 133);
-    border-style:outset;
+    border: 5px rgb(255, 120, 0) outset;
 }
 
 h1 {
@@ -40,7 +40,6 @@ h2 {
 }
 li {
     font-size:2vw;
-    margin-left: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 1px 1px 1px gray;
 }
