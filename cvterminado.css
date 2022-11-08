@@ -1,0 +1,68 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background-color:rgb(255, 193, 152);
+}
+
+:root {
+    --naranja1:rgb(255, 120, 0);
+    --naranja2:rgb(255, 200, 140);
+    --letra:font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --normal:10px;
+    --peque:6px;
+    --big:25px;
+    --letras:3vw;
+ }
+
+#cabecera {
+    background-color: rgb(255, 202, 133);
+    border-style:outset;
+}
+
+h1 {
+    color: rgb(189, 0, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 3px 3px 5px gray;
+}
+
+h2 {
+    color: rgb(189, 0, 0);
+    border-style: solid;
+    padding: 10px;
+    border: 5px rgb(255, 120, 0) outset;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li {
+    margin-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 1px gray;
+}
+a {
+    margin-left: 80px;
+}
+div {
+    background-color: rgb(255, 230, 180);
+    width: 90%;
+    border: 5px inset;
+    padding: 10px;
+    margin: auto;
+}
+#contenedor1 {
+    padding:10px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+.mezcla1 {
+    border:none;
+    text-align:initial;
+
+}
+.mezcla2 {
+    border:none;
+    text-align:center;
+}
