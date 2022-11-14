@@ -1,12 +1,3 @@
-* {
-    box-sizing:border-box;
-}
-
-body {
-    background-color:rgb(255, 193, 152);
-    font-size:2vw;
-}
-
 :root {
     --naranja1:rgb(255, 120, 0);
     --naranja2:rgb(255, 200, 140);
@@ -14,24 +5,28 @@ body {
     --normal:10px;
     --peque:6px;
     --big:25px;
-    --letras:2.5vw;
+    --letras:3vw;
+ }
+
+ img:hover {
+    transform:scalex(-1);
  }
 
 #cabecera {
     background-color: rgb(255, 202, 133);
-    border: 5px rgb(255, 120, 0) outset;
+    border-style:outset;
 }
 
 h1 {
-    color: rgb(133, 0, 0);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
     text-align: center;
     font-size: 40px;
-    text-shadow: 3px 3px 5px gray;
+    color: rgb(189, 0, 0);
+    text-shadow: 2px 2px 5px gray;
 }
 
 h2 {
-    font-size:3.5vw;
     color: rgb(189, 0, 0);
     border-style: solid;
     padding: 10px;
@@ -39,12 +34,14 @@ h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 li {
-    font-size:2vw;
+    margin-left: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: 1px 1px 1px gray;
 }
 a {
     margin-left: 80px;
+    text-decoration:none;
+    color:rgb(189, 0, 0);
 }
 div {
     background-color: rgb(255, 230, 180);
@@ -57,14 +54,8 @@ div {
     padding:10px;
     display:flex;
     flex-direction:row;
-    justify-content:space-evenly;
+    justify-content:space-around;
 }
-.mezcla1 {
+.mezcla {
     border:none;
-    text-align:initial;
-
-}
-.mezcla2 {
-    border:none;
-    text-align:center;
 }
