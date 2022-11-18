@@ -52,7 +52,7 @@ a {
 
 h2 {
     font-size: var(--textosgrandes);
-    color: rgb(202, 202, 202);
+    color: white;
     text-shadow: var(--sombragrande);
     padding-top: 30px;
     padding-left: 30px;
@@ -61,7 +61,7 @@ h2 {
 
 h6 {
     font-size: 2vw;
-    color: rgb(202, 202, 202);
+    color: white;
     text-shadow: var(--sombrapequeña);
 }
 
@@ -118,6 +118,7 @@ h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 #cuerpo1 {
