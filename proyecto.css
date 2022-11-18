@@ -44,7 +44,7 @@ body {
 }
 
 a {
-    padding: 15px;
+    padding: 5px;
     color: white;
     text-shadow: var(--sombrapequeña);
     text-decoration: none;
@@ -193,7 +193,7 @@ img {
 }
 
 li {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     color: white;
     font-size: var(--textospequeños);
 }
