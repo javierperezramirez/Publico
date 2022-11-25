@@ -27,20 +27,42 @@ body {
     height: 60vw;
 }
 
+#cabecera1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url("Imagenes/exposicion.jpg");
+    background-size: cover;
+    width: auto;
+    height: 60vw;
+}
+
 #nombre {
     font-size: var(--textosgrandes);
     color: white;
     text-shadow: 4px 4px 1px black, 0 0 30px red, 0 0 30px red;
-    padding-left: 20px;
+    padding-left:5vw;
+    padding-right:5vw;
 }
 
-#menu {
+#menugrupo {
     display: flex;
     flex-direction: column;
     font-size: var(--textospequeños);
     padding-top: 70px;
     padding-right: 30px;
+    padding-left:30px;
     text-align: right;
+}
+
+#menutienda {
+    display: flex;
+    flex-direction: column;
+    font-size: var(--textospequeños);
+    padding-top: 70px;
+    padding-right: 30px;
+    padding-left:30px;
+    text-align: left;
 }
 
 a {
@@ -74,6 +96,45 @@ h6 {
     width: auto;
     height: 60vw;
 
+}
+
+.contenedorguitarras {
+    background-size: cover;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)), url(Imagenes/guitarras.jpg);
+    width: auto;
+    height: 60vw;
+}
+
+#bateriascontenedor {
+    background-size: cover;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)), url(Imagenes/bateria.jpg);
+    width: auto;
+    height: 60vw;
+}
+
+#cuerpoguitarras {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#imagenguitarras {
+    width:50%;
+    height:50%;
+    padding:30px;   
+}
+
+#pguitarras {
+    width:50%;
+    font-size: 2vw;
+    color:rgb(230, 230, 230);
+    text-align: left;
+    padding-right: 30px;
 }
 
 .contenedor3 {
@@ -139,6 +200,25 @@ img {
     height: 100%;
 }
 
+#pinicio {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#imagentienda {
+    padding:20px;
+    width:40%;
+    float:right;
+}
+
+#guitarrastienda img:hover {
+    transform: scalex(-1);
+}
+
+#iniciotienda img:hover {
+    transform: scalex(-1);
+}
+
 #discografia img:hover {
     transform: scalex(-1);
 }
@@ -148,16 +228,16 @@ img {
 }
 
 #guitarra:active {
-    transform: scale(0.5);
+    transform: scalex(-1);
 }
 
 #bateria:active {
-    transform: scale(0.5);
+    transform: scale(0.3);
 
 }
 
 #bajo:active {
-    transform: scale(0.5);
+    transform: scaley(-1);
 
 }
 
@@ -204,6 +284,10 @@ li {
     margin-left: 2em;
 }
 
+p {
+    font-size:2vw;
+}
+
 .p1 {
     font-size: 1vw;
 }
@@ -219,11 +303,15 @@ li {
     text-align: right;
 }
 
+#guitarrastienda {
+    text-align: right;
+}
+
 /*---------------------------------------------------- PORTAFOTO DINAMICA ------------------------------------------*/
 
 #portaFoto {
-    width: 25vw;
-    height: 25vh;
+    width: 50vw;
+    height: 50vh;
     background-color: lightpink;
     display: block;
 }
