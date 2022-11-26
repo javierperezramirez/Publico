@@ -101,8 +101,8 @@ h6 {
 .contenedorguitarras {
     background-size: cover;
     background-image: linear-gradient(0deg,
-            rgba(0, 0, 0, 0.4),
-            rgba(0, 0, 0, 0.4)), url(Imagenes/guitarras.jpg);
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url(Imagenes/guitarras.jpg);
     width: auto;
     height: 60vw;
 }
@@ -135,6 +135,35 @@ h6 {
     color:rgb(230, 230, 230);
     text-align: left;
     padding-right: 30px;
+}
+
+#bajoscontenedor {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#pbajos {
+    padding-left: 30px;
+    padding-right: 80px;
+}
+
+#bajomarron {
+    width:25vw;
+    transform:scalex(-1);
+}
+
+#bajomarronreflex {
+    transform:scale(-1,-1) skewX(-30deg) translate(38%,101%);
+    transform-origin: bottom;
+    filter:blur(2px) grayscale(100%);
+}
+
+#contenedorbajomarron {
+    display: flex;
+    flex-direction:column;
+    margin-right: 20px;
 }
 
 .contenedor3 {
@@ -200,7 +229,7 @@ img {
     height: 100%;
 }
 
-#pinicio {
+.pinicio {
     padding-left: 30px;
     padding-right: 30px;
 }
