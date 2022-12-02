@@ -43,6 +43,26 @@ body {
     text-shadow: 4px 4px 1px black, 0 0 30px red, 0 0 30px red;
     padding-left:5vw;
     padding-right:5vw;
+    animation-duration:1s;
+    animation-name:culebra;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes culebra {
+    0% {
+        padding-left: 5vw;
+        padding-right:5vw;
+    }
+    50% {
+        padding-left: 6vw;
+        padding-right: 6vw;
+        text-shadow: 15px 15px 1px black, 0 0 90px rgb(255, 0, 0), 0 0 90px rgb(255, 0, 0);
+    }
+    100% {
+        padding-left: 5vw;
+        padding-right:5vw;
+    }
 }
 
 #menugrupo {
