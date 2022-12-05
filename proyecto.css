@@ -1,8 +1,8 @@
 :root {
     --textosgrandes: 4vw;
     --textospequeños: 3vw;
-    --sombragrande: 2px 2px 1px black, 0 0 30px red, 0 0 30px red;
-    --sombrapequeña: 2px 2px 1px black, 0 0 10px red, 0 0 5px red;
+    --sombragrande: 2px 2px 1px black, 0 0 40px red, 0 0 40px red;
+    --sombrapequeña: 2px 2px 1px black, 0 0 20px red, 0 0 20px red;
 }
 
 * {
@@ -16,6 +16,7 @@ body {
             rgba(255, 253, 253, 0.6),
             rgba(255, 255, 255, 0.6)), url(Imagenes/fonfopartitura.jpg);
 }
+
 
 #cabecera {
     display: flex;
@@ -101,9 +102,26 @@ h2 {
     padding-right: 30px;
 }
 
+@media screen and (max-width:580px) {
+    a {
+        color:  rgb(253, 0, 0);
+        text-shadow: 2px 2px 1px black, 0 0 20px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255);    
+    }
+
+    h2 {
+        color:  rgb(253, 0, 0);
+        text-shadow: 2px 2px 1px black, 0 0 20px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255);
+    }
+
+    h6 {
+        color:  rgb(253, 0, 0);
+        text-shadow: 2px 2px 1px black, 0 0 20px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255);
+    }
+}
+
 h6 {
     font-size: 2vw;
-    color: white;
+    color: rgb(255, 255, 255);
     text-shadow: var(--sombrapequeña);
 }
 
@@ -157,6 +175,23 @@ h6 {
     padding-right: 30px;
 }
 
+#bateriascontenedor {
+    text-align: right;
+    display:flex;
+    flex-direction: column;
+
+}
+
+#huecobaterias {
+    height: 100%;
+}
+
+#pbaterias {
+    text-align: left;
+    padding: 30px;
+    color:rgb(230, 230, 230);
+}
+
 #bajoscontenedor {
     display:flex;
     flex-direction: row;
@@ -166,6 +201,7 @@ h6 {
 
 #pbajos {
     padding-left: 30px;
+    padding-bottom: 30px;
     padding-right: 80px;
 }
 
@@ -208,6 +244,7 @@ h6 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .contenedor6 {
@@ -221,7 +258,7 @@ h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 25%;
+    width: 50%;
 }
 
 .contenedor8 {
