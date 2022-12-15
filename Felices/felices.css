@@ -43,27 +43,42 @@ div {
 }
 
 p {
-    margin-top: 7vh;
+    margin-top: 5vh;
     text-align:center;
     /* para suavizar los efectos */
     transition: all 2s ease;
     -webkit-transition: all 2s ease;
     background-color:transparent;
     color:red;
-    text-shadow:1px 1px goldenrod;
-    font-size:calc(1.2em + 1vw + 1vh);
+    text-shadow:2px 2px 1px black, 0 0 20px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255);
+    font-size:calc(1.5em + 2vw + 2vh);
     font-weight:bold;
     z-index:2;
 }
 
 p:nth-child(3) {
-    color:green;
+    color:rgb(0, 255, 0);
     font-style:italic;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+    animation-name:culebrillas;
+    animation-direction:alternate;
+}
+
+@keyframes culebrillas {
+    0%{
+        font-size:calc(1.5em + 2vw + 2vh);
+        text-shadow:2px 2px 1px black, 0 0 20px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255);
+    }
+    100%{
+        font-size:calc(5em + 3vw + 3vh);
+        text-shadow:5px 5px 3px black, 0 0 40px rgb(255, 255, 255), 0 0 40px rgb(255, 255, 255);
+    }
 }
 
 div:active, div:hover {
     opacity:1;
-    background-color:rgba(255,255,255,0.15);
+    background-color:rgba(0,0,0,0.6);
     
 }
 
