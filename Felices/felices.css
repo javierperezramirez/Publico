@@ -67,11 +67,11 @@ p:nth-child(3) {
 
 @keyframes culebrillas {
     0%{
-        font-size:calc(1.5em + 1vw + 1vh);
+        font-size:calc(1.2em + 1vw + 1vh);
         text-shadow:2px 2px 1px rgb(0, 0, 0), 0 0 20px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255);
     }
     100%{
-        font-size:calc(3em + 2vw + 2vh);
+        font-size:calc(2em + 1.5vw + 1.5vh);
         text-shadow:10px 10px 5px rgb(0, 0, 0), 0 0 40px rgb(255, 255, 255), 0 0 40px rgb(255, 255, 255);
     }
 }
