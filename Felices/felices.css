@@ -51,7 +51,7 @@ p {
     background-color:transparent;
     color:red;
     text-shadow:2px 2px 1px black, 0 0 20px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255);
-    font-size:calc(1.5em + 2vw + 2vh);
+    font-size:calc(1.2em + 1vw + 1vh);
     font-weight:bold;
     z-index:2;
 }
@@ -67,11 +67,11 @@ p:nth-child(3) {
 
 @keyframes culebrillas {
     0%{
-        font-size:calc(1.5em + 2vw + 2vh);
+        font-size:calc(1.5em + 1vw + 1vh);
         text-shadow:2px 2px 1px black, 0 0 20px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255);
     }
     100%{
-        font-size:calc(5em + 3vw + 3vh);
+        font-size:calc(3em + 2vw + 2vh);
         text-shadow:5px 5px 3px black, 0 0 40px rgb(255, 255, 255), 0 0 40px rgb(255, 255, 255);
     }
 }
