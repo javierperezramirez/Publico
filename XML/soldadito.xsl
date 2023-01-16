@@ -9,9 +9,15 @@
 				<h3>esperando....</h3>
 				<br></br>
 				<br></br>
-				<h4>
-					<xsl:value-of select="cancion/titulo"/>
-				</h4>
+				<tr>
+					<td><xsl:value-of select="cancion/titulo"/></td>
+				</tr>
+				<xsl:for-each select="cancion/letra/estrofa">
+    				<tr>
+     				<td><xsl:value-of select="title"/></td>
+      				<td><xsl:value-of select="artist"/></td>
+   					</tr>
+    			</xsl:for-each>
 			</body>
 		</html>
 	</xsl:template>
