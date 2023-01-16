@@ -7,6 +7,11 @@
 				<h1>Información de la canción</h1>
 				<h2>espere por favor...</h2>
 				<h3>esperando....</h3>
+				<br></br>
+				<br></br>
+				<h4>
+					<xsl:value-of select="cancion/titulo"/>
+				</h4>
 			</body>
 		</html>
 	</xsl:template>
