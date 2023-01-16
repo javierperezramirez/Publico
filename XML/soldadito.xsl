@@ -5,6 +5,7 @@
 			<head></head>
 			<body>
 				<h1>Información de la canción</h1>
+				<h2>espere por favor...</h2>
 			</body>
 		</html>
 	</xsl:template>
