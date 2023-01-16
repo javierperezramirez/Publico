@@ -6,6 +6,7 @@
 			<body>
 				<h1>Información de la canción</h1>
 				<h2>espere por favor...</h2>
+				<h3>esperando....</h3>
 			</body>
 		</html>
 	</xsl:template>
