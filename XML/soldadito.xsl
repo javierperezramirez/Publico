@@ -13,6 +13,14 @@
 					<td><xsl:value-of select="cancion/titulo"/></td>
 					<td><xsl:value-of select="cancion/autor"/></td>
 				</tr>
+				<xsl:for-each select="cancion/letra/estrofa">
+					<xsl:for-each select="tipo='normal'">
+							<p>ESTRIBILLO:</p>
+					</xsl:for-each>
+					<xsl:for-each select="verso">
+						<p></p>
+					</xsl:for-each>
+				</xsl:for-each>
 			</body>
 		</html>
 	</xsl:template>
