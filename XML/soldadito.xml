@@ -1,42 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="soldadito.xsl"?> 
-<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/xampp2/htdocs/lenguajemarcasclase/soldadito.xsd">
-    <titulo>Soldadito Marinero</titulo>
+<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/xampp/htdocs/LenguajeMarcas/soldadito.xsd">
+    <titulo>Whisky Barato</titulo>
     <autor>Fito y los Fitipaldis</autor>
     <letra>
         <estrofa>
             <tipo>Estribillo</tipo>
-            <verso>Él camina despacito que las prisas no son buenas</verso>
-            <verso>En su brazo dobladita, con cuidado la chaqueta</verso>
-            <verso>Luego pasa por la calle dónde los chavales juegan</verso>
-            <verso>Él también quiso ser niño pero le pilló la guerra</verso>
+            <verso>Cuando ya no sirven las palabras</verso>
+            <verso>Cuando se ha rajado la ilusión</verso>
+            <verso>Me emborracho con whisky barato</verso>
+            <verso>A ver si me escuece el corazón</verso>
         </estrofa>
         <estrofa>
             <tipo>Estribillo</tipo>
-            <verso>Soldadito marinero conociste a una sirena</verso>
-            <verso>De esas que dicen te quiero si ven la cartera llena</verso>
-            <verso>Escogiste a la más guapa y a la menos buena</verso>
-            <verso>Sin saber como ha venido te ha cogido la tormenta</verso>
+            <verso>Quiero ser tan duro como el hierro</verso>
+            <verso>Pero me derrito con tu olor</verso>
+            <verso>Quise hacer un cielo en el infierno</verso>
+            <verso>A ver si acertaba por error</verso>
         </estrofa>
         <estrofa>
             <tipo>Estribillo</tipo>
-            <verso>Él quería cruzar los mares y olvidar a su sirena</verso>
-            <verso>La verdad, no fue difícil cuando conoció a Mariela</verso>
-            <verso>Que tenía los ojos verdes y un negocio entre las piernas</verso>
-            <verso>Hay que ver que puntería, no te arrimas a una buena</verso>
+            <verso>Ya no queda nada entre tú y yo</verso>
+            <verso>Ya no queda nada entre los dos</verso>
+            <verso>Ya no queda nada entre tú y yo</verso>
+            <verso>Ya no queda nada entre los dos</verso>
         </estrofa>
         <estrofa>
             <tipo>Estribillo</tipo>
-            <verso>Soldadito marinero conociste a una sirena</verso>
-            <verso>De esas que dicen te quiero si ven la cartera llena</verso>
-            <verso>Escogiste a la más guapa y a la menos buena</verso>
-            <verso>Sin saber como ha venido te ha cogido la tormenta</verso>
+            <verso>Cada cual que siga su camino</verso>
+            <verso>Cada cual que baile su canción</verso>
+            <verso>Tu destino dicen ya está escrito</verso>
+            <verso>El mío tengo que escribirlo yo</verso>
         </estrofa>
         <estrofa>
             <tipo>Estribillo</tipo>
-            <verso>Después de un invierno malo, una mala primavera</verso>
-            <verso>Dime por que estas buscando una lágrima en la arena</verso>
-            <verso>Después de un invierno malo..............</verso>
+            <verso>Y de tu cariño, de tu amor, de tu alegría</verso>
+            <verso>De tu calor, de "vida mía", de "te quiero tanto"</verso>
+            <verso>Al final de todo, lo que me quedó</verso>
+            <verso>Es la canción que estoy cantando</verso>
+        </estrofa>
+        <estrofa>
+            <tipo>Estribillo</tipo>
+            <verso>Ya no queda nada entre tú y yo</verso>
+            <verso>Ya no queda nada entre los dos</verso>
+            <verso>Ya no queda nada entre tú y yo</verso>
+            <verso>Ya no queda nada entre los dos</verso>
         </estrofa>
     </letra>
 </cancion>
