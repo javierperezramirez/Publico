@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+	counter-reset: tipo verso;
+}
+
+p {
+	background-color: white;
+	color: black;
+	padding: 0;
+	margin: 0;
+}	
+
+h2 {
+	background-color: gray;
+	color: black;
+	padding: 0;
+	margin: 0;
+}
+
+h2::before {
+	counter-increment: tipo;
+	content: "Estribillo " counter(tipo) ": ";
+}
+
+p::before {
+	counter-increment: verso;
+	content: "Verso " counter(verso) ": ";
+}
+
+span {
+	color:blue;
+}
