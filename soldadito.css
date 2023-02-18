@@ -1,0 +1,117 @@
+body {
+    background-color: gray;
+}
+
+p {
+    line-height: 12px;
+}
+
+div {
+    line-height: 36px;
+}
+
+
+p:active {
+    font-family:Impact, 'Arial Narrow Bold';
+    zoom: 1.2;
+    color:red;
+    text-shadow: 1px 1px 10px black;
+}
+
+div::first-letter {
+    font-size:2em;
+}
+
+body>p:nth-child(2) {
+    visibility:hidden;
+}
+
+body>p:target,a:active {
+    visibility:active;
+    text-align:center;
+    font-style:oblique;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+#modal {
+    border:10px steelblue solid;
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    height: 200px;
+    width: 80%;
+    margin-top: 150px;
+    margin-left: 10%;
+}
+  
+#texto{
+    margin-top: 60px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+#mostrar-modal {
+    display: none;
+}
+
+#mostrar-modal + label {
+    border-radius: 20px;
+    background: steelblue;
+    display: table;
+    margin: auto;
+    color: #fff;
+    line-height: 3;
+    padding: 0 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+#mostrar-modal + label:hover {
+    background: #38678f;
+}
+
+#mostrar-modal:checked ~ #modal {
+    top: 0;
+}
+
+#cerrar-modal {
+    display: none;
+}
+
+#cerrar-modal:checked ~ #modal {
+    top: -100vh;
+}
+
+#cerrar-modal + label {
+    position: absolute;
+    top: 150px;
+    right: 10%;
+    z-index: 100;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    background: tomato;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#cerrar-modal + label {
+    display: none;
+}
+
+#mostrar-modal:checked ~ #cerrar-modal + label {
+    display: block;
+}
+
+#cerrar-modal:checked + label {
+    display: none;
+}
