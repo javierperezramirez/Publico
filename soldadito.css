@@ -13,7 +13,6 @@ div {
 
 p:active {
     font-family:Impact, 'Arial Narrow Bold';
-    zoom: 1.2;
     color:red;
     text-shadow: 1px 1px 10px black;
 }
@@ -49,10 +48,14 @@ a {
     margin-top: 150px;
     margin-left: 10%;
 }
-  
+
+#nombre {
+    font-size: 1.5em;
+}
+
 #texto{
     margin-top: 60px;
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: center;
 }
 
