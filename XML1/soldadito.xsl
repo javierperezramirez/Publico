@@ -8,17 +8,29 @@
 	    </body>
 	</html>
     </xsl:template>
+    
+    <xsl:template match="titulo">
+	     <h1>
+	     <xsl:value-of select="."/>
+	     </h1>     
+    </xsl:template>
+    
+    <xsl:template match="autor">
+	     <h1>
+	     <xsl:value-of select="."/>
+	     </h1>     
+    </xsl:template>
   
    <xsl:template match="tipo">
-     <h2>
-     <xsl:value-of select="."/>
-     </h2>     
-  </xsl:template>
+	     <h2>
+	     <xsl:value-of select="."/>
+	     </h2>     
+    </xsl:template>
   
    <xsl:template match="verso">
-     <p>
-     <span><xsl:value-of select="."/></span>
-     </p>     
-  </xsl:template>
+	     <p>
+	     <span><xsl:value-of select="."/></span>
+	     </p>     
+    </xsl:template>
 
 </xsl:stylesheet>
