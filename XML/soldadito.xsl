@@ -2,7 +2,10 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
  <xsl:template match="/">
-	<html><head><link rel="stylesheet" type="text/css" href="soldaditos.css" /></head>
+	<html>
+		<head>
+			<link rel="stylesheet" type="text/css" href="soldaditos.css" />
+		</head>
 		<body>
 	      <xsl:apply-templates />
 	    </body>
@@ -16,15 +19,15 @@
     </xsl:template>
     
     <xsl:template match="autor">
-	     <h1>
-	     <xsl:value-of select="."/>
-	     </h1>     
-    </xsl:template>
-  
-   <xsl:template match="tipo">
 	     <h2>
 	     <xsl:value-of select="."/>
 	     </h2>     
+    </xsl:template>
+  
+   <xsl:template match="tipo">
+	     <h3>
+	     <xsl:value-of select="."/>
+	     </h3>     
     </xsl:template>
   
    <xsl:template match="verso">

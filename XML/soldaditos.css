@@ -1,25 +1,40 @@
 body {
 	margin: 0;
-	background-color: rgb(255,255,175);
 	text-align: center;
 	counter-reset: tipo verso;
+	background-size: cover;
+	background-image: linear-gradient(0deg,
+        rgba(255, 253, 253, 0.6),
+        rgba(255, 255, 255, 0.6)), url(fondopartitura.jpg);
+    
 }
 
 p {
-	background-color: rgb(255,255,175);
-	color: blue;
+	color: red;
 	padding: 0;
 	margin: 10px;
 }	
 
+h1 {
+	color: red;
+	text-shadow: 2px 2px 1px black, 0 0 30px black, 0 0 30px black;
+	padding-top: 40px;
+	font-size: 50px;
+}
+
 h2 {
-	background-color: gray;
-	color: black;
+	color: red;
+	text-shadow: 2px 2px 1px black, 0 0 30px black, 0 0 30px black;
+}
+
+h3 {
+	color: white;
+	text-shadow: 2px 2px 1px black, 0 0 30px black, 0 0 30px black;
 	padding: 0;
 	margin: 30px;
 }
 
-h2::before {
+h3::before {
 	counter-increment: tipo;
 	content: " " counter(tipo) ": ";
 }
@@ -30,7 +45,7 @@ p::before {
 }
 
 span {
-	color: blue;
-	background-color: yellow;
+	color: black;
+	background-color: white;
 	font-weight: bold;
 }
