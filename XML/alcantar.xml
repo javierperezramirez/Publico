@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="soldadito.xsl"?> 
+<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/xampp/htdocs/LenguajeMarcas/soldadito.xsd">
+    <titulo>Al Cantar</titulo>
+    <autor>Platero y Tu</autor>
+    <letra>
+        <estrofa>
+            <tipo>Estribillo</tipo>
+            <verso>Al cantar, me puedo olvidar</verso>
+            <verso>De todos los malos momentos</verso>
+            <verso>Convertir en virtud defectos</verso>
+        </estrofa>
+        <estrofa>
+            <tipo>Estribillo</tipo>
+            <verso>Desterrar la vulgaridad</verso>
+            <verso>Aunque solo sea un momento</verso>
+            <verso>Y sentir que no estamos muertos</verso>
+        </estrofa>
+        <estrofa>
+            <tipo>Estribillo</tipo>
+            <verso>No es placer, es necesidad</verso>
+            <verso>Es viento, es lluvia, es fuego</verso>
+            <verso>Derramar todos mis secretos</verso>
+        </estrofa>
+        <estrofa>
+            <tipo>Estribillo</tipo>
+            <verso>Y busqué en el fondo del mar</verso>
+            <verso>En las montañas y en el cielo</verso>
+            <verso>La manera de hacer realidad mis sueños</verso>
+        </estrofa>
+        <estrofa>
+            <tipo>Estribillo</tipo>
+            <verso>Encontré en el corazón</verso>
+            <verso>El mapa de los sentimientos</verso>
+            <verso>Ya lo ves, no estaba tan lejos</verso>
+        </estrofa>
+        <estrofa>
+            <tipo>Estribillo</tipo>
+            <verso>No es placer, es necesidad</verso>
+            <verso>Es viento, es lluvia, es fuego</verso>
+            <verso>Derramar todos mis secretos</verso>
+        </estrofa>
+        <estrofa>
+            <tipo>Estribillo</tipo>
+            <verso>Esnifar, los rallos de sol</verso>
+            <verso>Y descongelar el cerebro</verso>
+            <verso>Y sentir que no estamos muertos</verso>
+        </estrofa>
+        <estrofa>
+            <tipo>Estribillo</tipo>
+            <verso>Y sentir que no estamos muertos (Sentir que no estamos muertos)</verso>
+            <verso>Y sentir que no estamos muertos (Aunque solo sea un momento)</verso>
+            <verso>Y sentir que no estamos muertos (Destroquelar mi cerebro, soy fuego)</verso>
+            <verso>Y sentir que no estamos muertos (Derramando todos mis secretos)</verso>
+        </estrofa>
+    </letra>
+</cancion>
