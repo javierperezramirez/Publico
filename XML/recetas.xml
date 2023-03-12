@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<receta>
+    <nombre>Pavo al Whisky</nombre>
+    <autor>Vatob Orracho</autor>
+    <instrucciones>
+        <parte>
+            <paso>Tomarse un buen vaso de whisky antes de comenzar.</paso>
+            <paso>Rellenar el pavo con la panceta, salpimentarlo y echarle un chorrito de aceite de oliva.</paso>
+            <paso>Precalentar el horno a 180º durante unos 10 minutos.</paso>
+        </parte>
+        <parte>
+            <paso>Mientras se calienta el horno, servirse otro pelotazo de whisky.</paso>
+            <paso>Meter el pavo en el horno.</paso>
+            <paso>Mientras el pavo está en el horno, tomarse otro pelotazo y calentarle una mijita al pavo.</paso>
+        </parte>
+        <parte>
+            <paso></paso>
+            <paso></paso>
+            <paso></paso>
+        </parte>
+        <parte>
+            <paso></paso>
+            <paso></paso>
+            <paso></paso>
+        </parte>
+        <parte>
+            <paso></paso>
+            <paso></paso>
+            <paso></paso>
+        </parte>
+        <parte>
+            <paso></paso>
+            <paso></paso>
+            <paso></paso>
+        </parte>
+        <parte>
+            <paso></paso>
+            <paso></paso>
+            <paso></paso>
+        </parte>
+        <parte>
+            <paso></paso>
+            <paso></paso>
+            <paso></paso>
+        </parte>
+    </instrucciones>
+</receta>
