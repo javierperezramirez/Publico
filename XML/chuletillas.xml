@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="recetas.xsl"?>
+<receta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Javier/Repositorios/Publico/XML/recetas.xsd">
+    <nombre>Chuletillas al Sarmiento</nombre>
+    <autor>Javier Perez</autor>
+    <instrucciones>
+        <parte>
+            <paso>Ir a la plaza del pueblo a las 12h a comprar los ingredientes.</paso>
+            <paso>Encuentrarse con unos amigos y charlar un ratito.</paso>
+            <paso>Ya que estais, pedir unas cañitas pa acompañar la tertulia.</paso>
+        </parte>
+        <parte>
+            <paso>Unir a la tertulia a mas amigos que aparezcan por la plaza.</paso>
+            <paso>Seguir con la tertulia un rato mas. La compañia lo merece.</paso>
+            <paso>Añadir a la tertulia y a las cañitas a cualquier cuadrilla que aparezca.</paso>
+        </parte>
+        <parte>
+            <paso>Ir a otro bar si escuchas "vamos a echar otra"...</paso>
+            <paso>... ir a otro bar a seguir con el vermucito, la tertulia y las buenas risas.</paso>
+            <paso>Ir a comprar todo rapido antes de que cierren a las 14h.</paso>
+        </parte>
+        <parte>
+            <paso>Ya que esta todo comprado, continuar con los amigos que siguen en el bar.</paso>
+            <paso>Tomar unas rondas mas entre buena compañia....</paso>
+            <paso>Procurar volver antes de las 16h, para que no se haga muy tarde la comida.</paso>
+        </parte>
+        <parte>
+            <paso>Volver pal merendero toda la cuadrilla y los que se hayan unido durante el vermu.</paso>
+            <paso>Coger un par de gavillas de sarmientos bien secas y encenderlas en la chimenea.</paso>
+            <paso>Preparar las chuletillas en la parrilla y seguir con la tertulia.</paso>
+        </parte>
+        <parte>
+            <paso>Extender las brasas y colocar la parrilla durante unos minutos.</paso>
+            <paso>Preparar la mesa, sin cubiertos, con platos, pan y vasos (llenos).</paso>
+            <paso>Darle la vuelta a la parrilla y esperar otro ratin mientras se doran un poco.</paso>
+        </parte>
+        <parte>
+            <paso>Comprobar que esten doradas por ambos lados y echarles bien de sal antes de sacarlas.</paso>
+            <paso>Una ultima vueltita y a la bandeja que ya son las 17h.</paso>
+            <paso>Degustar las chuletillas con un buen vino y continuar disfrutando de la velada....</paso>
+        </parte>
+    </instrucciones>
+</receta>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="recetas.xsl"?>
+<receta xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Javier/Repositorios/Publico/XML/recetas.xsd">
+    <nombre>Pavo al Whisky</nombre>
+    <autor>Vatob Orracho</autor>
+    <instrucciones>
+        <parte>
+            <paso>Tomarse un buen vaso de whisky antes de comenzar.</paso>
+            <paso>Rellenar el pavo con la panceta, salpimentarlo y echarle un chorrito de aceite de oliva.</paso>
+            <paso>Precalentar el horno a 180º durante unos 10 minutos.</paso>
+        </parte>
+        <parte>
+            <paso>Mientras se calienta el horno, servirse otro pelotazo de whisky.</paso>
+            <paso>Meter el pavo en el horno.</paso>
+            <paso>Mientras el pavo está en el horno, tomarse otro pelotazo y calentarle una mijita al pavo.</paso>
+        </parte>
+        <parte>
+            <paso>Subir el horno a 220º, darle caña al derbostato y esberar veinte minutos.</paso>
+            <paso>Servirse otro belotasso.</paso>
+            <paso>Al cabo de un drato, hornir el abro para godrolar y echar un chodreton de güiqui al babo.</paso>
+        </parte>
+        <parte>
+            <paso>Darle la güerta al babo.</paso>
+            <paso>Cantarle un fandango al babo mientras se sicharra.</paso>
+            <paso>Redirar el babo del honno. Si se te desbala, bruscarlo por el suelo.</paso>
+        </parte>
+        <parte>
+            <paso>Odro pelotazo pa inicia dra busqueda.</paso>
+            <paso>Darse un jardasso al resfalar con la grassa del suelo.</paso>
+            <paso>Plobar la sarsa del ssuelo que ya estrada fleshquita.</paso>
+        </parte>
+        <parte>
+            <paso>Tromarse otra copita e inblitar al babo questa tumbao al lao.</paso>
+            <paso>Indendar levandarse y desidir que en el suelo se está de gojones.</paso>
+            <paso>Abarese de repente la barienta... </paso>
+        </parte>
+        <parte>
+            <paso>Engüendra el babo en el basillo, lo tira a la bassura y te forma la de Dió.</paso>
+            <paso>Tomarse odro güisqui y a comé....</paso>
+            <paso>...¿y el babo?...,¿dronde eshta el babo?... El hio puta sa bebio el wishhki y se a io!!!</paso>
+        </parte>
+    </instrucciones>
+</receta>

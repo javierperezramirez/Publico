@@ -23,7 +23,7 @@
 	     </h2>     
     </xsl:template>
   
-   <xsl:template match="verso">
+   <xsl:template match="paso">
 	     <p>
 	     <span><xsl:value-of select="."/></span>
 	     </p>
