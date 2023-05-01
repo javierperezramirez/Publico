@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(197, 197, 197);
+}
+
+#titulo {
+    text-align: center;
+    margin-top: 5vh;
+    text-shadow: 0.5vw 0.5vh 5px aqua;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#total {
+    border-style: solid;
+    background-color: rgb(155, 255, 255);
+    height: 60vh;
+    width: 60vw;
+    margin-left: 20vw;
+    margin-top: 10vh;
+    display:flex;
+    flex-direction: column;
+}
+
+#f1 {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(155, 255, 255);
+}
+
+#c0 {
+    background-color: rgb(0, 218, 218);
+    border-style: solid;
+    height: 18vh;
+    width: 18vw;
+    margin-left: 1.3vw;
+    margin-top: 1.3vh;
+    font-size: 20vh;
+    text-align: center;
+}
+
+#c1 {
+    background-color: rgb(0, 218, 218);
+    border-style: solid;
+    height: 18vh;
+    width: 18vw;
+    margin-left: 1.3vw;
+    margin-top: 1.3vh;
+    font-size: 20vh;
+    text-align: center;
+}
+
+#c2 {
+    background-color: rgb(0, 218, 218);
+    border-style: solid;
+    height: 18vh;
+    width: 18vw;
+    margin-left: 1.3vw;
+    margin-top: 1.3vh;
+    font-size: 20vh;
+    text-align: center;
+}
+
+#f2 {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(155, 255, 255);
+}
+
+#c3 {
+    background-color: rgb(0, 218, 218);
+    border-style: solid;
+    height: 18vh;
+    width: 18vw;
+    margin-left: 1.3vw;
+    margin-top: 1.3vh;
+    font-size: 20vh;
+    text-align: center;
+}
+
+#c4 {
+    background-color: rgb(0, 218, 218);
+    border-style: solid;
+    height: 18vh;
+    width: 18vw;
+    margin-left: 1.3vw;
+    margin-top: 1.3vh;
+    font-size: 20vh;
+    text-align: center;
+}
+
+#c5 {
+    background-color: rgb(0, 218, 218);
+    border-style: solid;
+    height: 18vh;
+    width: 18vw;
+    margin-left: 1.3vw;
+    margin-top: 1.3vh;
+    font-size: 20vh;
+    text-align: center;
+}
+
+#f3 {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(155, 255, 255);
+}
+
+#c6 {
+    background-color: rgb(0, 218, 218);
+    border-style: solid;
+    margin-top: 1.3vh;
+    height: 18vh;
+    width: 18vw;
+    margin-left: 1.3vw;
+    font-size: 20vh;
+    text-align: center;
+}
+
+#c7 {
+    background-color: rgb(0, 218, 218);
+    border-style: solid;
+    height: 18vh;
+    width: 18vw;
+    margin-left: 1.3vw;
+    margin-top: 1.3vh;
+    font-size: 20vh;
+    text-align: center;
+}
+
+#c8 {
+    background-color: rgb(0, 218, 218);
+    border-style: solid;
+    height: 18vh;
+    width: 18vw;
+    margin-left: 1.3vw;
+    margin-top: 1.3vh;
+    font-size: 20vh;
+    text-align: center;
+}
